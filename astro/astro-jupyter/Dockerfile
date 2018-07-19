@@ -4,7 +4,7 @@ LABEL maintainer="Bryan J. Lunt <bjlunt2@illinois.edu>"
 
 USER root
 
-#RUN apt-get install -y xephem
+#RUN apt-get install -y xephem curl
 
 USER $NB_UID
 
